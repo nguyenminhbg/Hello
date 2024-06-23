@@ -21,6 +21,7 @@ def on_button_click():
     label1=tk.Label(root,text="Add more")
     label1.pack()
     print("just added print method")
+    print("Co tinh tao conlict")
 button=tk.Button(root,text="Click here", command=on_button_click)
 button.pack(pady=20)
 root.mainloop()
