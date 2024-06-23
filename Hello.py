@@ -20,6 +20,7 @@ def on_button_click():
     method2(35)
     label1=tk.Label(root,text="Add more")
     label1.pack()
+    print("Add git")
 button=tk.Button(root,text="Click here", command=on_button_click)
 button.pack(pady=20)
 root.mainloop()
